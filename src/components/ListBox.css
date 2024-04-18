@@ -1,0 +1,20 @@
+.list-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .list-box {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    background-color: #f9f9f9;
+  }
+  
+  .list-box p {
+    margin-bottom: 10px;
+  }
+  
