@@ -48,8 +48,8 @@ function ListBox() {
     };
 
     return (
-      <div className="mt-2 container d-flex justify-content-center">
-          <div className="card border-dark" style={{ width: "800px" }}>
+      <div className="mt-5 container d-flex justify-content-center">
+          <div className="card border border-0" style={{ width: "800px" }}>
               <div className="card-body">
                 <input 
                     type="text" 
@@ -64,7 +64,7 @@ function ListBox() {
                     deleteListItem={handleDeleteListItem}
                     toggleCompleteListItem={toggleCompleteListItem}
                 />
-                <div className="mt-2 input-group mb-3 border border-dark-subtle rounded-2 align-items-center">
+                <div className="mt-2 input-group mb-3 border border-dark-subtle rounded-2 align-items-center fw-bold">
                     <input
                         type="text"
                         className="form-control border-primary border-0 shadow-none"

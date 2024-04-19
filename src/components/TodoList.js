@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
+import DeleteIcon from "../delete-icon-1864x2048-bp2i0gor.png"
 
 function TodoList({ listItems, deleteListItem, toggleCompleteListItem }) {
   return (
@@ -21,7 +22,7 @@ function TodoList({ listItems, deleteListItem, toggleCompleteListItem }) {
                 </span>
               </label>
             </div>
-            <button className="btn btn-danger btn-sm" onClick={() => deleteListItem(index)}>Delete</button>
+            <button className="btn btn-sm" onClick={() => deleteListItem(index)}><img src={DeleteIcon} style={{height: "20px", weight: "20px"}} alt="Delete Icon" /></button>
           </li>
         ))}
       </ol>
